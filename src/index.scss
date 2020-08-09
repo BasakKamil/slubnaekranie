@@ -9,18 +9,30 @@
 	$fontOscr: 'Lato', sans-serif;
 	$fontWeeding: 'Comfortaa', cursive;
 	$kamcia: #3f3c40;
-	
+	$nowyBack: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+
+
 	.App{
 		background: white;
 		position: relative;
 		animation: change 5s ease-in-out infinite;
 		overflow: hidden;
 		font-family: $fontOscr;
+		a:hover{
+			color: purple;
+		
+		}
 	}
 	// .Foremkaa{
 	// 	width: 70% !important;
 	// 	float: left;
 	// }
+	.LogoFace{
+		
+			width: 18%;
+			height: auto;
+		
+	}
 	.Oferta{
 		color: white;
 	}
@@ -296,7 +308,7 @@
 	}
 	.LogoOsk{
 	width: 100%;
-    background: white;
+    background: none;
     padding: 8%;
     border-radius: 10px;
 
@@ -312,11 +324,12 @@
 	position: fixed;
     display: flex;
 	z-index: 99999;
-	max-height: 10vh;
+	height: auto;
+	max-height: 15vh;
     left: 0;
     top: 0;
     width: 100%;
-    background: #ffffffc4;
+    background: #ffffffde;
 	}
 	.fly{
 		
@@ -382,7 +395,8 @@
 		font-weight: bold;
 	}
 	.FooterBasi{
-		background: #333333;
+		background: $nowyBack;
+		background-blend-mode: screen;
 		position: relative;
 		bottom: 0%;
 		width: 100%;
@@ -776,19 +790,26 @@
 	.LogoKamila{
 		z-index: 99;
 		display: block;
-		width: 80%;
+		width: 100%;
 		height: auto;
 		margin-left: 10%;
 		max-height: 80px;
 		opacity: 1;
-			p{
-				padding: 20px;
+			div{
+				padding: 10px;
 				margin: 0;
 				float: left;
-				height: auto;
+				height: 100px;
 				min-height: 50px;
+				color: white;
+				p{
+					vertical-align:middle;
+					display:table-cell;
+					height: 65px;
+				}
 				a{
-					width: 35%;
+					width: 100%;
+					color: white;
 					display: block;
 				}
 			
