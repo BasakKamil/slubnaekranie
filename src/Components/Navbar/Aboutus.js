@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Oscar from '../Design/oscr.JPG';
-import Oscar2 from '../Design/oscr2.JPG';
+// import Oscar2 from '../Design/oscr2.JPG';
 import Gif from '../Film/gifslubart2.gif';
 
 export class Aboutus extends Component {
@@ -9,18 +9,22 @@ export class Aboutus extends Component {
 
 
 
-  kamcia() {
-    const a = document.getElementById('Huhu');
-        a.style.display = 'none';
-  }
+  // kamcia() {
+  //   const a = document.getElementById('Huhu');
+  //       a.style.display = 'none';
+  // }
 
   basi(){
+   
+  const delayInMilliseconds = 2000;
+  setTimeout(function() {
     const b = document.getElementById('Haha');
-        b.style.display= 'none';
-  }
+    b.style.display= 'none';
+  }, delayInMilliseconds);
+}   
     render() {
         return (
-            <div className="AboutUss">
+            <div className="AboutUss"   >
                 <div className="Oscr">
                   <div className="row">
                     <div className="TekstSlub col">
@@ -35,10 +39,7 @@ export class Aboutus extends Component {
                     - Profesjonalne podejście do Pary Młodej.<br/>
                     - Najnowocześniejszy sprzęt wideo.<br/>
                     </p>
-                    <img className="OscrImg" src={Oscar2} alt="" onLoad={this.kamcia.bind(this)}/>
-                    <div className="LoadMov" id="Huhu">
-                      <img src={Gif} alt="load" className="ZaladujGifa" />
-                    </div>
+               
                     </div>
                     <div className="SlubPrawa col">
                     <h3 className="nameh3">

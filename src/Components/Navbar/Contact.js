@@ -8,17 +8,20 @@ export class Contact extends Component {
         return (
             <div className="ContactSlub">
                 <div className="InsideCont row">
-                <div className="Foremkaa col-md-6">
+                    <div className="DescriptO">
                     <h3 className="nameh3">
-                    Oskar Klukowski <br/>
-                    Tel.
+                        Oskar Klukowski <br/>
+                        Tel.
                     </h3>
+                    </div>
+                <div className="Foremkaa col">
+                 
                     <div>
                         <Foremka/>
                     </div>
                     
                 </div>
-                <div className="Mapka col-md-6">
+                <div className="Mapka col">
                               <Mapa/>
                     </div>
                
