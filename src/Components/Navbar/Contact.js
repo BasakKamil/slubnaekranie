@@ -11,7 +11,8 @@ export class Contact extends Component {
                     <div className="DescriptO">
                     <h3 className="nameh3">
                         Oskar Klukowski <br/>
-                        Tel.
+                        Tel.667 168 072<br/>
+                        E-Mail: biuro@slubnaekranie.pl
                     </h3>
                     </div>
                 <div className="Foremkaa col">

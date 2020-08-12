@@ -17,7 +17,7 @@ export class MenuOpen extends Component {
             anime({
                 targets: '.ListingNew li',
                 translateX: '100%',
-                delay: anime.stagger(400, {start: 300, easing: 'easeOutQuad'})
+                delay: anime.stagger(250, {start: 200, easing: 'easeOutQuad'})
             })
         }
         else {
