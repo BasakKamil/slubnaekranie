@@ -34,6 +34,7 @@
 		padding: 4%;
 		
 	}
+
 	.Oferta{
 		color: white;
 	}
@@ -82,8 +83,11 @@
 		background: white;
 		z-index: 9999;
 	}
-	.ZaladujGifa{
-		width: 50%;
+	.ZaladujGifa {
+		width: 40%;
+		position: absolute;
+		left: 30%;
+		top: 20%;
 		margin: 0 auto;
 	}
 	.FilmGlowny{

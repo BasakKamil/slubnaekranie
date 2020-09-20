@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import YouTubePlayer from 'react-player/lib/players/YouTube';
 import Gif from './gifslubart2.gif';
-
+import ReactPlayer from 'react-player';
 
  
 class FilmFront extends Component {
@@ -9,7 +8,8 @@ class FilmFront extends Component {
 constructor(props){
   super(props);
   this.state = {
-      load: false
+      load: false,
+      urlmovie: "https://www.youtube.com/embed/lZANujHyn9c"
   }
   this.kamila.bind(this);
 }
@@ -30,7 +30,9 @@ constructor(props){
   
   
   render () {
-
+   
+    const width = window.innerWidth;
+    const height = window.innerHeight;
 
   
    if(window.onload){ return <div className="loadingMovie">Ładuje Strone</div>}
@@ -39,29 +41,26 @@ constructor(props){
        <div className="LoadMov" id="Huhu">
              <img src={Gif} alt="load" className="ZaladujGifa" />
        </div>
-       <YouTubePlayer
-         className="OscMov"
-         controls='0'
-         width='100%'
-         height='100%'
-         url='https://www.youtube.com/embed/lZANujHyn9c'
-         muted
-         allow="accelerometer"
-         volume="1"
-         loop= "1"
-         enablejsapi="1"
-         rel="0"
-         cc_load_policy="1"
-         frameborder="0"    
-         showinfo="0"
-         modestbranding="1"
-         disablekb="1" 
-         iv_load_policy="3"
-         playing
-         onPlay={this.kamila}
-        //  pip={false}  
-      // Other ReactPlayer props will work here
-    />
+    
+         
+     <ReactPlayer 
+                url={this.state.urlmovie} 
+                controls={false}
+                width={width}
+                height={height}
+                muted
+                modestbranding="1"
+                className="OscMov"
+                enablejsapi="1"
+                playing
+                rel="0"
+                cc_load_policy="1"
+                frameborder="0" 
+                showinfo="0"
+                volume="1"
+                loop= {true}
+                onPlay={this.kamila}
+                />
 
 </div>
     )
