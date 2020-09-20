@@ -44,8 +44,9 @@ constructor(props){
          controls='0'
          width='100%'
          height='100%'
-         url='https://www.youtube.com/watch?v=ImCoXO4BA2g'
+         url='https://www.youtube.com/embed/lZANujHyn9c'
          muted
+         allow="accelerometer"
          volume="1"
          loop= "1"
          enablejsapi="1"

@@ -7,7 +7,7 @@ export class FilmFront3 extends Component {
         return (
             <div>
                 <ReactPlayer 
-                url="https://www.youtube.com/watch?v=ImCoXO4BA2g" 
+                url="https://www.youtube.com/embed/lZANujHyn9c" 
                 controls={false}
                 height={height}
                 className="OscMov"
