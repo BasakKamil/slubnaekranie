@@ -70,7 +70,7 @@
  	    border-radius: 10px;
 	}
 	.OscMov{
-		width: 100%;
+		width: 100% !important;
    	    // height: 100% !important;
 
 	}
@@ -315,7 +315,7 @@
 	.LogoOsk{
 	width: 100%;
     background: none;
-    padding: 8%;
+    padding: 0%;
     border-radius: 10px;
 
 	}
@@ -335,7 +335,7 @@
 	position: fixed;
     display: flex;
 	z-index: 99999;
-	height: 10vh;
+	height: 12vh;
     left: 0;
     top: 0;
     width: 100%;
@@ -872,5 +872,21 @@
 		.MenuKamilBTwo{
 			display: none;
 		}
+	}
+
+	@media (min-width:1000px) {
+		.LogoOsk {
+			width: 60%;
+		}
+		.NavMenuOskar{
+			height: 14vh;
+		}
+	}
+
+	@media (min-width:2000px) {
+		.LogoOsk {
+			width: 40%;
+		}
+
 	}
 		
