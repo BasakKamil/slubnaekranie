@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LogoVimeo from '../Components/Design/vimeo.png';
-import LogoInsta from '../Components/Design/vimeo2.png';
+import LogoInsta from '../Components/Design/insta.png';
 import Logoface from '../Components/Design/face.png';
 
 
