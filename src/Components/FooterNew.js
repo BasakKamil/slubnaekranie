@@ -15,17 +15,17 @@ export class FooterNew extends Component {
 
 
     <ul class="row LogoKamila">
-      <li class="col-sm">
+      <li class="col-sm-4">
         <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/slubnaekranie">
           <img src={Logoface} alt="" className="LogoFace"/>
         </a>
       </li>
-      <li class="col-sm">
+      <li class="col-sm-4">
         <a class="btn-floating btn-tw mx-1" href="https://www.instagram.com/prevohouse">
         <img src={LogoInsta} alt="" className="LogoInsta"/>
         </a>
       </li>
-      <li class="col-sm">
+      <li class="col-sm-4">
         <a class="btn-floating btn-gplus mx-1" href="https://vimeo.com/slubnaekranie">
         <img src={LogoVimeo} alt="" className="LogoVimeo" />
         </a>
