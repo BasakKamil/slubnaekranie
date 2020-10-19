@@ -9,7 +9,7 @@ export class Footer extends Component {
     render() {
         return (
             <div className="FooterBasi">
-                <div className="LogoKamila row">
+                <div className=" row">
                    
                       <div className="col"></div>
                       <div className="col"><a href="https://vimeo.com/slubnaekranie"><img className="LogoVimeo" src={LogoVimeo} alt=""/></a></div>
