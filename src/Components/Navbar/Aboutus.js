@@ -27,7 +27,7 @@ export class Aboutus extends Component {
             <div className="AboutUss"   >
                 <div className="Oscr">
                   <div className="row">
-                    <div className="TekstSlub col">
+                    <div className="TekstSlub col-6">
                     <p>
                     Ślub Na Ekranie tworzą ludzie z pasją, umiejętnościami i wyobraźnią.
                     To wyjątkowe połączenie doświadczenia, nowoczesności oraz nieszablonowego podejścia.
@@ -41,7 +41,7 @@ export class Aboutus extends Component {
                     </p>
                
                     </div>
-                    <div className="SlubPrawa col">
+                    <div className="SlubPrawa col-6">
                     <h3 className="nameh3">
                     Oskar Klukowski <br/>
                     operator filmowy, założyciel „Ślub Na Ekranie”<br/>
