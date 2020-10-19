@@ -3,7 +3,7 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 import Menu from './Components/Navbar/Menu';
-import Footer from './Components/Footer';
+import Footer from './Components/FooterNew';
 import Home from './Components/Navbar/Home';
 import Aboutus from './Components/Navbar/Aboutus';
 import Contact from './Components/Navbar/Contact';
