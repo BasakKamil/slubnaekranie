@@ -39,7 +39,7 @@ export class FooterNew extends Component {
 
 
   
-  <div class="footer-copyright text-center py-3">© 2020 Ślub na Ekranie
+  <div class="footerstyle footer-copyright text-center py-3">© 2020 Ślub na Ekranie
 
   </div>
 
