@@ -8,7 +8,7 @@ export class FooterNew extends Component {
     render() {
         return (
            
-<footer class=" FooterBasi page-footer special-color-dark pt-2">
+<footer class=" FooterBasi page-footer special-color-dark pt-2 pb-2">
 
  
   <div class="container">
