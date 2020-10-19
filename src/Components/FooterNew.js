@@ -8,7 +8,7 @@ export class FooterNew extends Component {
     render() {
         return (
            
-<footer class=" FooterBasi page-footer special-color-dark pt-2 pb-2">
+<footer class=" FooterBasi page-footer special-color-dark pt-1 pb-1">
 
  
   <div class="container">
@@ -39,7 +39,7 @@ export class FooterNew extends Component {
 
 
   
-  <div class="footerstyle footer-copyright text-center py-3">© 2020 Ślub na Ekranie
+  <div class="footerstyle footer-copyright text-center py-2">© 2020 Ślub na Ekranie
 
   </div>
 
