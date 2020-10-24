@@ -26,6 +26,7 @@
 		
 		}
 	}
+	
 	.footerstyle{
 		font-family: $fontFooter;
 	}
@@ -36,7 +37,7 @@
 		padding: 4%;
 		
 	}
-
+	
 	.Oferta{
 		color: white;
 	}
@@ -267,8 +268,11 @@
 		}
 	
 	}
+	.FooterBasi{
+		height: 25vh;
+	}
 	.HomePage{
-		height: 78vh;
+		height: 75vh;
 		top: 0;
 		left: 0;
 	}
@@ -434,9 +438,11 @@
 	.OskarOferta{
 		width: 100%;
 		height: auto;
-		min-height: 50vh;
+		height: 75vh !important;
+		margin-top: 0;
+		margin-bottom: 0%;
 		h3{
-			margin-top: 26vh;
+			padding-top: 15%;
 		}
 	}
 	.SignatureYear{
@@ -893,6 +899,9 @@
 		.NavMenuOskar{
 			height: 14vh;
 		}
+		.OskarOferta{
+			margin-top: 20%;
+		}
 	}
 
 	@media (min-width:2000px) {
@@ -910,10 +919,24 @@
 	}
 
 	@media (max-width:940px) {
+		.ForemkaKontakty {
+			width: 100%;
+		}
+		.partTwo{
+			width: 100%;
+		}
 		.Oscr{
 			padding: 4%;
 			width: 100%;
 			margin-top:9%;
+		}
+		.TekstSlub{
+			
+			width: 100% !important;
+			
+		}
+		.SlubPrawa{
+			width: 100% !important;
 		}
 	}
 
