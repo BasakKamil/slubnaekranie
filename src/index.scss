@@ -899,9 +899,7 @@
 		.NavMenuOskar{
 			height: 14vh;
 		}
-		.OskarOferta{
-			margin-top: 20%;
-		}
+	
 	}
 
 	@media (min-width:2000px) {
@@ -938,10 +936,23 @@
 		.SlubPrawa{
 			width: 100% !important;
 		}
+		.OskarOferta{
+			padding-top: 5%;
+		}
+	
+		
 	}
 
 	@media (max-width:440px){
 		.Oscr{
 			margin-top:14%;
+		}
+	}
+	@media (min-width:1840px){
+		.OskarOferta{
+			h3{
+				padding-top: 10%;
+			}
+			
 		}
 	}
