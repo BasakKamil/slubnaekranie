@@ -8,7 +8,7 @@ import Logoface from '../Components/Design/face.png';
 export class Footer extends Component {
     render() {
         return (
-            <div className="FooterBasi">
+            <footer className="FooterBasi blockquote">
                 <div className=" row">
                    
                       <div className="col"></div>
@@ -18,7 +18,7 @@ export class Footer extends Component {
                       <div className="col"><a href="https://www.facebook.com/slubnaekranie"><img className="LogoFace" src={Logoface} alt=""/></a></div>
                       
                 </div>
-            </div>
+            </footer>
         )
     }
 }
