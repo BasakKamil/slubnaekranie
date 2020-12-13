@@ -13,7 +13,7 @@ export class Footer extends Component {
                    
                       <div className="col"></div>
                       <div className="col"><a href="https://vimeo.com/slubnaekranie"><img className="LogoVimeo" src={LogoVimeo} alt=""/></a></div>
-                      <div className="col"> <p>Ślub na Ekranie 2020</p></div>
+                      <div className="col"> <p> &copy; Ślub na Ekranie 2020</p></div>
                       <div className="col"><a href="https://www.instagram.com/prevohouse"><img className="LogoInsta" src={LogoInsta} alt=""/></a></div>
                       <div className="col"><a href="https://www.facebook.com/slubnaekranie"><img className="LogoFace" src={Logoface} alt=""/></a></div>
                       
