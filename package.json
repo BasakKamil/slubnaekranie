@@ -14,7 +14,7 @@
     "@vimeo/player": "^2.10.0",
     "anime": "^0.1.2",
     "animejs": "^3.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "8.0.6",
