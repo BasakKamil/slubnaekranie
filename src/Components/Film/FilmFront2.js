@@ -9,7 +9,7 @@ constructor(props){
   super(props);
   this.state = {
       load: false,
-      urlmovie: "https://www.youtube.com/embed/ImCoXO4BA2g"
+      urlmovie: "https://www.youtube.com/embed/ImCoXO4BA2g?controls=0"
   }
   this.kamila.bind(this);
 }
