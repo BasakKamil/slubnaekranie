@@ -49,6 +49,14 @@
 		font-family: $fontWeeding;
 		font-size: 25px;
 	}
+	.InfoMov{
+		h3{
+			
+				padding-top: 5%;
+				padding-bottom: 3%;
+			
+		}
+	}
 	.NavMenMob{
 		text-decoration: none;
 		list-style: none;
@@ -134,9 +142,14 @@
 
 		}
 	}
+
+	.PDetail{
+		padding-top: 14vh;
+		padding-bottom: 5%;
+	}
 	.cartMov{
 		h2{
-				margin-top: 14vh;
+				margin-top: 0vh;
 		}
 		min-height: 75vh;
 		height: 100%;

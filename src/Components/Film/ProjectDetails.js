@@ -82,7 +82,7 @@ class ProjectDetails extends Component {
    }
    else return(
     <div  className="cartMov">
-       
+       <div className="PDetail">
         <h2>{name}</h2>
         <div className="split">
         <div className="LoadMoviesPart" id="Movs">
@@ -91,9 +91,10 @@ class ProjectDetails extends Component {
         <ReactPlayer url={url} playing className="Mag" onPlay={this.kamis} />
         </div>
         <div className="InfoMov">
+            <h3>Opis:</h3>
             {info}     
         </div>
-          
+        </div>
     </div>
     )
 
